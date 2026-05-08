@@ -72,13 +72,12 @@ Edit sesuai setting MySQL kamu:
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
-DB_PASSWORD=         ← kalau pakai XAMPP, password biasanya kosong
+DB_PASSWORD=         
 DB_NAME=dompet_ibu
 PORT=3001
 ```
 
 > **Catatan XAMPP:** Password MySQL di XAMPP defaultnya **kosong** (tidak perlu diisi).
-> Kalau kamu set password sendiri waktu install, isi di sini.
 
 ### 2. Install dependencies backend
 Buka Terminal, masuk ke folder backend:
