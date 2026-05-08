@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #FFF0F5;
+  min-height: 100vh;
+  overscroll-behavior: none;
+}
+
+#root {
+  max-width: 430px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #FFF0F5;
+  position: relative;
+}
+
+input, button, select, textarea {
+  font-family: 'Nunito', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #E91E8C;
+  outline-offset: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD6E7;
+  border-radius: 4px;
+}
